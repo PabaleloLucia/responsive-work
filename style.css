@@ -1,6 +1,7 @@
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
+
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -36,6 +37,26 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  h1,
+  h2,
+  h3 {
+    font-size: 30px;
+  }
+
+  .primary-link {
+    text-align: center;
+  }
+
+  .container {
+    display: block;
+  }
+
+  .email-link {
+    font-size: 10px;
+  }
 }
 
 .navigation-links {
@@ -82,7 +103,7 @@ p {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 20px;
   text-decoration: none;
 }
 
